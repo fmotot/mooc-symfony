@@ -1,10 +1,6 @@
 # This file is the entry point to configure your own HTTP routes.
 # Files in the routes/ subdirectory configure the routes for your dependencies.
 
-hello_the_world:
-    path:       /hello-world
-    controller: App\Controller\AdvertController::index
-
 lucky_luck:
     path:       /lucky/number
     controller: App\Controller\LuckyController::index
